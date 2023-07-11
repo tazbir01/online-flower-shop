@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato';
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    background-size: cover;
+}
+.banner-title{
+    color: #272727;
+font-size: 80px;
+font-weight: 800;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+}
