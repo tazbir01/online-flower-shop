@@ -40,3 +40,84 @@ body {
     width: 500px;
     height: 600px;
 }
+
+/* this is for main section */
+
+/* featured section */
+
+.featured-title,
+.featured-description {
+    text-align: center;
+}
+
+.featured-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 177px;
+    margin-bottom: 24px;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.featured-photo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+/* .featured-photo-div{
+    width: 464px;
+height: 538px;
+} */
+.featured-photo-container,
+h4 {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.featured-photo1 {
+    padding: 117px 76px 0 76px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-photo2 {
+    padding: 140px 76px 0 76px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-photo3 {
+    padding: 67px 76px 0 76px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* this is for hot deal */
+.hot-deal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 130px;
+    padding: 100px;
+}
+.hot-deal-container{
+text-align:center ;
+}
+.hot-deal-titel{
+font-size: 40px;
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin-top: 25px;
+margin-bottom: 32px;
+}
