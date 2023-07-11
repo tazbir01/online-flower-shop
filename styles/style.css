@@ -28,6 +28,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /* this is for banner */
@@ -118,7 +119,31 @@ h4 {
     height: 270px;
     width: 190px;
 }
-
+/* this is for service */
+.service{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 130px 150px 0 150px;
+}
+.service-img-1{
+    padding-top: 40px;
+    padding-left: 70px;
+}
+.service-img-2{
+    padding-top: 40px;
+    padding-left: 70px;
+}
+.service-img-3{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.service-txt{
+    text-align: center;
+    padding-bottom: 40px;
+}
 /* this is for hot deal */
 
 .hot-deal {
@@ -188,7 +213,7 @@ h4 {
 }
 
 .get-deals-input {
-    padding: 45px 15px 120px 370px;
+    padding: 0px 15px 140px 370px;
 }
 
 #email {
@@ -196,9 +221,6 @@ h4 {
     border: 0;
     border-radius: 8px;
     margin-right: 10px;
-}
-.btn-1{
-
 }
 
 /* footer starts form here */
