@@ -34,6 +34,31 @@ body {
 .nav-container{
     display: flex;
     justify-content: space-around;
+    background: rgba(124, 6, 108, 0.342);
+}
+.nav-title{
+    font-size: 48px;
+    padding: 30px;
+}
+.flower-color-1{
+    color: #E55473;
+}
+.flower-color-2{
+    color: rgb(161, 161, 9);
+}
+.nav-container > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container li{
+    list-style: none;
+    font-size: 20px;
+    padding-left: 50px;
+}
+a{
+    text-decoration: none;
+    color: #E55473;
 }
 
 /* this is for banner */
