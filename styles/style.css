@@ -114,6 +114,9 @@ text-align:center ;
 .hot-deal-titel{
 font-size: 40px;
 }
+.txt-color{
+   color: #E55473;
+}
 .hot-deal-description{
     color: rgba(39, 39, 39, 0.60);
 font-size: 18px;
