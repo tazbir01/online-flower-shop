@@ -38,6 +38,9 @@ body {
     background: rgba(229, 84, 115, 0.10);
     margin-bottom: 170px;
 }
+.banner-container{
+    padding: 0px 95px 0px 100px;
+}
 
 .banner-title {
     color: #272727;
@@ -53,20 +56,18 @@ body {
 }
 
 .banner-image {
-    width: 500px;
-    height: 600px;
-    margin-top: 50px;
+    width: 480px;
+    height: 580px;
+
 }
 
-/* this is for main section */
+/* main section start here */
 
 /* featured section */
 
-
-
 .featured-photo-container {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 
@@ -92,7 +93,7 @@ h4 {
     height: 270px;
     width: 180px;
     margin-right: 18px;
-    
+
 }
 
 .featured-photo-3 {
@@ -102,15 +103,18 @@ h4 {
     height: 270px;
     width: 180px;
 }
-.featured-image-1{
+
+.featured-image-1 {
     height: 270px;
     width: 190px;
 }
-.featured-image-2{
+
+.featured-image-2 {
     height: 250px;
     width: 250px;
 }
-.featured-image-3{
+
+.featured-image-3 {
     height: 270px;
     width: 190px;
 }
@@ -135,13 +139,20 @@ h4 {
     color: #E55473;
 }
 
-.btn1 {
+.btn-1 {
     margin-top: 32px;
+    border-radius: 8px;
+    color: white;
+    background: #E55473;
+    padding: 15px 30px;
+    border: 0;
 }
-.hot-deal-image{
+
+.hot-deal-image {
     height: 300px;
     width: 260px;
 }
+
 /* this is for instagram section */
 .instagram {
     margin-bottom: 130px;
@@ -149,52 +160,70 @@ h4 {
 
 .instagram-image-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 50px;
+}
+.instagram-image{
+    height: 300px;
+    width: 240px;
+    padding-right: 20px;
 }
 
 /* this is for deals section */
 
-.get-deals{
+.get-deals {
     align-items: center;
-    background-image: url(../images/Rectangle\ 9.png);
+    background-image: url(../images/rectangle9.png);
     background-repeat: no-repeat;
+    background-size: 1010px;
+    background-position: center;
 }
-.section-title1{
+
+.section-title-1 {
     text-align: center;
     padding-top: 122px;
     color: #272727;
     font-size: 40px;
     margin-bottom: 25px;
 }
-.get-deals-input{
-    padding: 45px 15px 120px 300px;
+
+.get-deals-input {
+    padding: 45px 15px 120px 370px;
 }
-#email{
-    padding: 22px 470px 22px 22px;
+
+#email {
+    padding: 15px 280px 15px 15px;
     border: 0;
     border-radius: 8px;
+    margin-right: 10px;
 }
+.btn-1{
+
+}
+
 /* footer starts form here */
 
-.footer{
+.footer {
     text-align: center;
     background-color: #111010;
     color: white;
 }
-.footer-title{
-font-size: 48px;
-padding-top: 130px;
-padding-bottom: 24px;
+
+.footer-title {
+    font-size: 48px;
+    padding-top: 130px;
+    padding-bottom: 24px;
 }
-.footer-description{
-font-size: 18px;
-font-weight: 400;
+
+.footer-description {
+    font-size: 18px;
+    font-weight: 400;
 }
-.rights{
+
+.rights {
     color: rgba(255, 255, 255, 0.40);
-font-size: 16px;
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
     padding-top: 30px;
     padding-bottom: 130px;
 }
