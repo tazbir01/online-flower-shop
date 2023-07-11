@@ -55,6 +55,7 @@ body {
 .banner-image {
     width: 500px;
     height: 600px;
+    margin-top: 50px;
 }
 
 /* this is for main section */
@@ -65,8 +66,7 @@ body {
 
 .featured-photo-container {
     display: flex;
-    justify-content: space-around;
-    align-items: end;
+    justify-content:center;
 }
 
 
@@ -76,25 +76,47 @@ h4 {
     margin-top: 32px;
 }
 
-.featured-photo1 {
+.featured-photo-1 {
     padding: 117px 76px 0 76px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    height: 270px;
+    width: 180px;
+    margin-right: 18px;
 }
 
-.featured-photo2 {
-    padding: 140px 76px 0 76px;
+.featured-photo-2 {
+    padding: 117px 76px 0 76px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
+    height: 270px;
+    width: 180px;
+    margin-right: 18px;
+    
 }
 
-.featured-photo3 {
-    padding: 67px 76px 0 76px;
+.featured-photo-3 {
+    padding: 117px 76px 0 76px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+    height: 270px;
+    width: 180px;
+}
+.featured-image-1{
+    height: 270px;
+    width: 190px;
+}
+.featured-image-2{
+    height: 250px;
+    width: 250px;
+}
+.featured-image-3{
+    height: 270px;
+    width: 190px;
 }
 
 /* this is for hot deal */
+
 .hot-deal {
     display: flex;
     justify-content: space-around;
@@ -116,7 +138,10 @@ h4 {
 .btn1 {
     margin-top: 32px;
 }
-
+.hot-deal-image{
+    height: 300px;
+    width: 260px;
+}
 /* this is for instagram section */
 .instagram {
     margin-bottom: 130px;
