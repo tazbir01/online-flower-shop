@@ -1,26 +1,42 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
 body {
     font-family: 'Lato';
 }
 
-.banner{
+/* this is shared section */
+.btn {
+    border-radius: 8px;
+    color: white;
+    background: #E55473;
+    padding: 20px 40px;
+    border: 0;
+}
+
+/* this is for banner */
+.banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(229, 84, 115, 0.10);
-    background-size: cover;
+    background: rgba(229, 84, 115, 0.10);
 }
-.banner-title{
+
+.banner-title {
     color: #272727;
-font-size: 80px;
-font-weight: 800;
+    font-size: 80px;
+    margin-bottom: 32px;
 }
-.banner-description{
+
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.banner-image {
+    width: 500px;
+    height: 600px;
 }
